@@ -13,6 +13,7 @@ class BlogIndex extends React.Component {
 
     return (
       <div>
+      <p>hello</p>
         <Helmet title={siteTitle} />
         <Bio />
         {posts.map(({ node }) => {
